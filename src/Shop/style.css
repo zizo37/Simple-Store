@@ -1,0 +1,55 @@
+.product-list-table {
+    border: 1px solid black;
+    width: 100%;
+  }
+  
+  .product-list-table th,
+  .product-list-table td {
+    padding: 10px;
+  }
+  
+  .product-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .product-list-table td img {
+    max-width: 75px;
+    max-height: 75px;
+  }
+  
+  .product-list-table .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .product-list-table .add-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .product-list-table .like-dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Product.js */
+  .product-table th,
+  .product-table td {
+    padding: 10px;
+  }
+  
+  .product-table td img {
+    max-width: 75px;
+    max-height: 75px;
+  }
+  
+  .product-table .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Nav.js */
+  .nav-links {
+    margin-right: 10px;
+    text-decoration: none;
+  }

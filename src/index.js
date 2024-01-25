@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ProductList from './Shop/ProductList';
+import Product from './Shop/Product';
+import AppShop from './Shop/AppShop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <ProductList />
+    <Product /> */}
+
+    <AppShop/>
   </React.StrictMode>
 );
 
